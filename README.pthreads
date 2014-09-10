@@ -1,0 +1,36 @@
+
+    POSIX PTHREADS for OS/2 EMX rel 4  --  Antony T Curtis  -  10 Dec 1998
+    ======================================================================
+
+
+This library provides basic Pthreads support for EMX. Of course, there are some
+limitations which will need to be addressed to properly implement Pthreads, but
+hopefully, enough is implemented to get basic programs which use of Pthreads to
+work.
+
+This implementation of Pthreads is based upon the sources of the FreeBSD 2.2.5
+libraries.
+
+Features:
+
+  o     Allows inter-thread signals via pthread_kill()
+  o     Allows signals to break (some) I/O calls.
+
+Other Features:
+
+  o     Partial implemention of dynamic library support
+
+Limitations:
+
+  o     Not fully tested.
+
+Implementation notes:
+
+  o     Changed the location of the library files...
+
+Have fun,
+
+        Antony Curtis
+
+        antony.curtis@olcs.net
+
